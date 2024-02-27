@@ -76,7 +76,7 @@ img{
     background-image: url(https://fastly.picsum.photos/id/866/246/146.jpg?hmac=zRqGHYPwsvnSmVxAZ8yt-zEwoCMyB7CPbuQiC6bqw90);
     background-size: cover;
     
-    margin: 5px;
+    margin: 5px 2px;
     
 }
 
@@ -103,9 +103,58 @@ img{
 .interface{
     width: 100%;
     height: 6vh;
-    background-color: aqua;
+    background-color: rgba(34, 34, 34, 1);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
     
+
 }
 
 
+.left{
+    width: calc(100% / 3);
+    display: flex;
+    margin: 10px;
+    font-size: 23px;
+    align-items: center;
+    
+}
+
+.left span{
+    padding: 20px;
+}
+
+.middle{
+    width: calc(100% / 3);
+    display: flex;
+    margin: 10px;
+    font-size: 23px;
+    align-items: center;
+    
+}
+
+.middle span{
+    padding: 20px;
+}
+
+.right{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.right span{
+    background-color: rgba(74, 74, 74, 1);
+    color: rgba(255, 0, 0, 1);
+    padding: 16px;
+    margin: 16px 0;
+    position: relative;
+    
+}
+
+#green{
+    color: rgba(0, 255, 0, 1);
+}
