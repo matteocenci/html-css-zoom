@@ -34,7 +34,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: scroll;
-    overflow-x: none;
+    scrollbar-width: none;
 
 }
 
