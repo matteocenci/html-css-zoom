@@ -24,7 +24,7 @@ img{
     position: relative;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 95%;
     height: 90vh;
     background-color: blueviolet;
     margin-bottom: 60px;
@@ -45,9 +45,22 @@ img{
     z-index: 1;
     width: calc(100% / 7);
     /* height: calc(100% / 5); */
-    background-color: antiquewhite;
+    background-image: url(https://fastly.picsum.photos/id/866/246/146.jpg?hmac=zRqGHYPwsvnSmVxAZ8yt-zEwoCMyB7CPbuQiC6bqw90);
+    background-size: cover;
+    
     margin: 5px;
     
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(101, 114, 124, 0.5);
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+    padding: 2px;
 }
 
 
@@ -64,3 +77,5 @@ img{
     height: 6vh;
     background-color: aqua;
 }
+
+
